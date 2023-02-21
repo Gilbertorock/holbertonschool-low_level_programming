@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * determinar si el numero es positivo o negativo
- * betty style doc for function main goes there
+ * main - determinar si el numero es positivo o negativo
  * Return: Always 0 (Success)
  */
 int main(void)
