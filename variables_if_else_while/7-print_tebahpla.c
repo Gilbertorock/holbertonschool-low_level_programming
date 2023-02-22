@@ -5,9 +5,9 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void) /*no description found for function main*/
+int main(void)
 {
-	char abc;
+		char abc;
 
 	for (abc = 'z'; abc >= 'a'; abc--)
 	{
