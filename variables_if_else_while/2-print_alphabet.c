@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /*
  * main -  a program that prints the alphabet in lowercase.
  * Description: print the letters of the alphabet.
