@@ -1,19 +1,19 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints Holberton
+ * main - prints _putchar
  * Description: prints Holberton
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-		char text[10] = "_putchar";
-		int i = 0;
+		char *p = '_putchar';
 
-		for (i = 0; i < 9; i++)
+		while (*p)
 		{
-			_putchar(text[i]);
+			_putchar(*p);
+			p++;
 		}
 		_putchar('\n');
 
