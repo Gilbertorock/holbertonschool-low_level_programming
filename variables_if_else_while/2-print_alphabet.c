@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/*
+/**
  * main - a program that prints the alphabet in lowercase.
  * Description: followed by a new line.
  * Return: Always 0 (Success)
