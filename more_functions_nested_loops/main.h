@@ -28,4 +28,4 @@ void print_times_table(int n);
 
 void num(int r, int n);
 
-int _isupper(int c)
+int _isupper(int c);
