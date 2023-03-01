@@ -18,13 +18,3 @@ void _puts(char *str)
 	}
 	_putchar('\n');
 }
-
-/** Solución 2 */
-
-void _puts(char *str)
-{
-	while (*str)
-		_putchar(*str++);
-
-	_putchar('\n');
-}
