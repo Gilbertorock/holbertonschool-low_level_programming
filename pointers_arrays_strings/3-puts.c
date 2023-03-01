@@ -5,6 +5,9 @@
  * @str: string
  * Return: string
  */
+
+/** Solución 1 */
+
 void _puts(char *str)
 {
 	int i;
@@ -13,5 +16,15 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
+	_putchar('\n');
+}
+
+/** Solución 2 */
+
+void _puts(char *str)
+{
+	while (*str)
+		_putchar(*str++);
+
 	_putchar('\n');
 }
