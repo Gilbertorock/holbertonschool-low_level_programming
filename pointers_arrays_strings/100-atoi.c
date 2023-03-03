@@ -7,25 +7,33 @@
  */
 int _atoi(char *s)
 {
-	int i;
-	unsigned int num;
-	char *st;
 
-	st = s;
-	num = 0;
-	i = 1;
-	while (*st != '\0' && (st < '0' || *st > '9'))
+	double sig = 1, num = 0, resp;
+
+	while (*s && (*s < '0' || *s > '9'))
+
 	{
-		if (*st == '-')
-			sign *= -1;
-		st++;
+
+		if (*s == '-')
+
+			sig = -sig;
+
+		s++;
+
 	}
-	if (*st != '\0')
+
+	while (*s && (*s >= '0' && *s <= '9'))
+
 	{
-		do {
-			num = num * 10 + (*st - '0');
-			st++;
-		}while (*st >= '0' && *st <= '9');
+
+		num = num * 10 + (*s - '0');
+
+		s++;
+
 	}
-	return (num * sign);
+
+	resp = (num *sig);
+
+	return (resp);
+
 }
