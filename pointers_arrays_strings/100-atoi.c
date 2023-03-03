@@ -32,7 +32,7 @@ int _atoi(char *s)
 
 	}
 
-	resp = (num *sig);
+	resp = (num * sig);
 
 	return (resp);
 
