@@ -8,16 +8,16 @@
  * Return: Always 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
-{
-	int i, count;
+	int i;
+	int con = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
-
-	for (count = 0; count < n; count++)
+	while (dest[dest[con] !=  '\0')
 	{
-		dest[i + count] = src[count];
-		if (src[count] == '\0')
-			count = n;
+		con++;
 	}
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+			dest[con + i] =src[i];
+	dest[len + i] = '\0';
+
 	return (dest);
 }
