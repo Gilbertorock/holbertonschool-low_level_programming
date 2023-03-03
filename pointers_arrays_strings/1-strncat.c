@@ -8,6 +8,7 @@
  * Return: Always 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
+{
 	int i;
 	int con = 0;
 
