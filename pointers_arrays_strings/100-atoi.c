@@ -18,8 +18,8 @@ int _atoi(char *s)
 	{
 		if (*st == '-')
 			sign *= -1;
-		t++;
-	
+		st++;
+	}
 	if (*st != '\0')
 	{
 		do {
