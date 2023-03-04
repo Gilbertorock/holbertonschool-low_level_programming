@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * string_toupper - changing string to upper function
- * @strs : string pointer
+ * *string_toupper - changing string to upper function
+ * @s: string pointer
  * Return: Always 0.
  */
 
